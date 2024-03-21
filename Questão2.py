@@ -7,6 +7,8 @@ def fibonacci(n):
 numero = int(input("Digite um número: "))
 
 if fibonacci(numero) == numero:
-  print(f"O número {numero} pertence à sequência de Fibonacci!")
+  print(f"O número {numero} pertence à sequência de Fibonacci")
 else:
   print(f"O número {numero} não pertence à sequência de Fibonacci.")
+
+# Meu objetivo foi fazer do jeito mais simples possível se pertence ou não a sequência Fibonacci
